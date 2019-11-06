@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c38a2c20-edbf-4e68-860f-99245b4e8ca2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/2a/079b80502960d318ef7c669d94740e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/38/55ddd36bae10d7e4969798477c2dbf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/57/7298c78dab426db672f34ef1e752d9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/5a/755cd8386ff34f59b9d72f2779618b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/6f/ef89ae0170470e2efa891dfb75cc35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/86/edd36ee4c48b3411b8b4d48a97b4f3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/a0/36435045cedf5634746d89cae02a90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/ac/e921b0d79d0c94f63c7ec8a9df1a16.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/ae/817d5ed532779eabe721e414b99d90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/b1/e0f0290a74409c91b8902c84c40714.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/ed/11520d65f5f01c919a8edb688c850a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/favorites-website.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,15 +79,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
               <caret line="71" selection-start-line="71" selection-end-line="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -156,11 +161,6 @@
               <item name="favorites-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="favorites-website" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="favorites-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="favorites-website" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -201,18 +201,17 @@
       <option name="presentableId" value="Default" />
       <updated>1572925815133</updated>
       <workItem from="1572925816379" duration="24836000" />
-      <workItem from="1573003041904" duration="7693000" />
+      <workItem from="1573003041904" duration="7999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32529000" />
+    <option name="totallyTimeSpent" value="32835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -224,7 +223,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.37021276" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5035461" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
