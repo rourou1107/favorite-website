@@ -1,0 +1,244 @@
+/*reset*/
+*{margin:0;padding:0;box-sizing: border-box;}
+*::before, *::after {margin:0;padding:0;box-sizing: border-box;}
+ul, ol {
+    list-style: none;
+}
+a {color: inherit; text-decoration: none;}
+img {max-width: 100%; max-height: 100%;}
+input {
+    border: none;
+    outline: none;
+}
+button {
+    border: none;
+}
+
+/*title*/
+header.title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #0282B9;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*search*/
+.search {
+    margin: 30px;
+}
+
+.search .searchForm {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+
+}
+.search .text {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(32, 33, 36, .28);
+    /*box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);*/
+    padding-left: 10px;
+}
+
+.search .btn {
+    padding: 5px 25px;
+    margin-left: 10px;
+    background-color: #0282B9;
+    color: #ffffff;
+    font-size: 16px;
+    /*border-radius: 4px;*/
+}
+
+/*list*/
+.list {
+    padding: 0 20px;
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list ul li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+
+.list ul li > div {
+    width: 160px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list .name {
+    margin: 10px 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgb(229, 231, 232);;
+}
+
+.list .name > p{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 50%;
+    background: #0282B9;
+    margin: 10px;
+}
+
+
+.list .icon-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.alertWrapper {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.6);
+}
+.alert {
+    display: none;
+    width: 300px;
+    padding: 40px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.alert .alertTitle {
+   font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.alert > div > div {
+    color: #0282B9;
+    font-size: 14px;
+    margin: 5px 0 20px;
+}
+.alert > div > div input {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    background: rgb(241, 243, 244);
+}
+.alert > div > div > p {
+    margin-bottom: 5px;
+}
+
+.alert .btnWrapper {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.alert button {
+    padding: 8px 15px;
+    background: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+
+}
+.alert .cancle, .alert .done {
+    float: right;
+    margin-right: 20px;
+}
+
+
+/*PC端*/
+@media (min-width: 500px) {
+    .search .text {
+        box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+
+    }
+    .list {
+        padding: 0;
+        max-width: 580px;
+        margin-left: auto;
+        margin-right:  auto;
+    }
+
+    .search .searchForm {
+        display: flex;
+        justify-content: center;
+    }
+    .search .text {
+        max-width: 500px;
+
+    }
+    .list ul {
+        margin-right: -25px;
+        justify-content: flex-start;
+    }
+    .list ul li > div {
+        width: 120px;
+    }
+    .list .desc {
+        font-size: 12px;
+    }
+    .list .name {
+        width: 60px;
+        height: 60px;
+    }
+    .list .name > p {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .list ul li {
+        padding-bottom: 10px;
+        margin-right: 25px;
+    }
+    .list ul li:hover{
+        background: rgb(242, 242, 242);
+        cursor: pointer;
+    }
+    .list .icon-menu {
+        opacity: 0;
+    }
+
+    /*动画效果*/
+    .list p.appear {
+        opacity: 1;
+        animation: app 3s;
+        cursor: auto;
+    }
+    @keyframes app {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+}
+
+
+/*# sourceMappingURL=style.3ad08860.css.map */
