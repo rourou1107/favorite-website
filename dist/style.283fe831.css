@@ -164,7 +164,12 @@ header.title {
     border-radius: 4px;
     border: 1px solid #ccc;
     font-size: 12px;
-
+    color: rgb(26, 115, 232);
+}
+.alert  button.disable {
+    pointer-events: none;
+    background-color: rgb(241, 243, 244);
+    color: rgb(163, 168, 171);
 }
 .alert .cancle, .alert .done {
     float: right;
@@ -241,4 +246,4 @@ header.title {
 }
 
 
-/*# sourceMappingURL=style.3ad08860.css.map */
+/*# sourceMappingURL=style.283fe831.css.map */

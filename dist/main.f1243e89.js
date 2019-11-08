@@ -126,6 +126,7 @@ var $alertUrl = $('.alertUrl');
 var $done = $('.done');
 var $cancle = $('.cancle');
 var $alert = $('.alert');
+var $delete = $('.delete');
 var $liList = $('.liList');
 var $list = $('.list');
 var hashObj = JSON.parse(localStorage.getItem('hashMap'));
@@ -156,7 +157,7 @@ function alertFrame(title, name, url) {
   $('.alertWrapper').css('display', 'block');
   $alert.css('display', 'block');
   $alertName.val(name || '');
-  $alertUrl.val(url || ''); // $liList.css('pointer-events', 'none')
+  $alertUrl.val(url || '');
 } // 控制弹框隐藏函数
 
 
@@ -167,7 +168,7 @@ function hideFrame() {
 
 function simplifyUrl(url) {
   return url.replace('http://', '').replace('https://', '').replace('www.', '').replace(/\/.*/, '');
-} // 增加网站, index控制hashMap列表渲染的起始位置
+} // 增加网站
 
 
 function render() {
@@ -268,12 +269,10 @@ $cancle.click(function () {
 // })
 
 window.onbeforeunload = function () {
-  // console.log(22222)
   var hashString = JSON.stringify(hashMap); // Object(Array) --> string
 
   localStorage.setItem('hashMap', hashString);
-}; // console.log(JSON.stringify(hashMap))
-// 解决safari上,onbeforeunload失效
+}; // 解决safari上,onbeforeunload失效
 
 
 window.addEventListener("pagehide", function (event) {
@@ -284,4 +283,4 @@ window.addEventListener("pagehide", function (event) {
   }
 }, false);
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.6797da0a.js.map
+//# sourceMappingURL=main.f1243e89.js.map

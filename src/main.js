@@ -5,6 +5,7 @@ let $alertUrl = $('.alertUrl')
 let $done = $('.done')
 let $cancle = $('.cancle')
 let $alert = $('.alert')
+let $delete = $('.delete')
 let $liList = $('.liList')
 let $list = $('.list')
 let hashObj = JSON.parse(localStorage.getItem('hashMap'))
@@ -35,7 +36,6 @@ function alertFrame(title, name, url) {
     $alert.css('display', 'block')
     $alertName.val(name || '')
     $alertUrl.val(url || '')
-    // $liList.css('pointer-events', 'none')
 }
 
 // 控制弹框隐藏函数
@@ -54,7 +54,8 @@ function simplifyUrl(url){
 
 
 
-// 增加网站, index控制hashMap列表渲染的起始位置
+
+// 增加网站
 function render(){
     for(let i = 0; i < hashMap.length; i++){
         let name = hashMap[i].name
@@ -164,11 +165,10 @@ $cancle.click(()=>{
 // })
 
 window.onbeforeunload = () => {
-    // console.log(22222)
     let hashString = JSON.stringify(hashMap) // Object(Array) --> string
     localStorage.setItem('hashMap', hashString)
 }
-// console.log(JSON.stringify(hashMap))
+
 
 // 解决safari上,onbeforeunload失效
 window.addEventListener("pagehide", event => {
